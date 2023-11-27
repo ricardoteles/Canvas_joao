@@ -1,0 +1,75 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h2 {
+    width: 100%;
+}
+
+.canvas {
+    width: 800px;
+}
+
+.linha {
+    display: flex;
+    height: 300px;
+}
+
+.sub {
+    height: 146px;
+    width: 130px;
+}
+
+.item {
+    border: 1px solid black;
+    margin: 3px;
+    position: relative;
+    display: block;
+    flex: 1 2 0px;
+    transition: transform 1000ms;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.linha:hover .item {
+    transform: translateX(-5%);
+}
+
+.item:focus~.item,
+.item:hover~.item {
+    transform: translateX(5%);
+}
+
+.linha .item:focus,
+.linha .item:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.azul {
+    background-color: #23A4DE;
+}
+
+.vermelho {
+    background-color: #FE0032;
+}
+
+.verde {
+    background-color: #3FC339;
+}
+
+.laranja {
+    width: 50%;
+    background-color: #FFAD26;
+}
+
+.coluna {
+    display: block;
+}
+
+span {
+    font-weight: bold;
+}

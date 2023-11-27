@@ -1,0 +1,62 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c0b7b7;
+}
+
+.container {
+    /*margin: 15px 4%;
+    padding: 10px;*/
+
+      height: auto;
+  width: auto;
+  background-color:rgb(196, 218, 188);
+  text-align: justify;
+  font-size: 20px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+
+.position-icon, h2 {
+    margin: 5px;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #c5c0c0;
+    border: 2px solid #c5c0c0;
+    margin: 0;
+}
+
+.position-icon2, h2 {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color: #c5c0c0;
+    border: 2px solid #c5c0c0;
+    margin: 0;
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    grid-gap: 20px;
+} 
+
+.grids2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    padding: 10px;
+    margin: 0 auto;
+    grid-gap: 20px;
+}
+
+.grid {
+    background-color: #e6dede;
+    text-align: center;
+}

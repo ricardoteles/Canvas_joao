@@ -1,0 +1,156 @@
+main{
+
+    border-style: solid;
+    border-radius: 10px;
+}
+
+ .Principal_Canvas{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 350px 350px 350px ; 
+} 
+
+.item {
+    background-color: rgb(14, 82, 62);
+    font-size: 30px;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    border-color: rgb(32, 30, 30);
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10%;
+}
+.item1 {
+
+}
+
+.item2 {
+
+}
+
+.bloco1{
+    
+   
+}
+.bloco2{
+ 
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+.div1{
+    background-color: rgb(7, 33, 46);
+    text-align: justify;
+    border-color: rgb(247, 247, 247);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10%;
+    margin-left: 995px;
+    margin-right: 0px;
+    height: 800px;
+}
+
+.div2{
+    background-color: rgb(33, 34, 8);
+    text-align: justify;
+    border-color: rgb(247, 247, 247);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10%;
+    height: 400px;
+}
+
+.div3{
+    background-color: blueviolet;
+    text-align: justify;
+    border-color: rgb(247, 247, 247);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10%;
+    height: 400px;
+}
+
+.div4{
+    height: 150px;
+    width: 850px;
+    background-color: rgb(143, 101, 29);
+    text-align: justify;
+    border-color: rgb(247, 247, 247);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10%;
+    height: 800px;
+}
+
+.div5{
+    height: 150px;
+    width: 850px;
+    background-color: rgb(81, 87, 85);
+    text-align: justify;
+    border-color: rgb(247, 247, 247);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10%;
+    height: 400px;
+}
+
+.div6{
+    height: 150px;
+    width: 850px;
+    background-color: rgb(43, 226, 153);
+    text-align: justify;
+    border-color: rgb(247, 247, 247);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10%;
+    height: 400px;
+}
+
+.div7{
+    height: 150px;
+    width: 850px;
+    background-color: blueviolet;
+    text-align: justify;
+    border-color: rgb(247, 247, 247);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10%;
+    height: 800px;
+}
+
+.bloco2{
+    height: auto;
+    width: auto;
+    background-color:blue;
+    text-align: justify;
+    
+    
+}
+
+.div8{
+    height: 150px;
+    width: 850px;
+    background-color: rgb(66, 8, 73);
+    text-align: justify;
+    border-color: rgb(247, 247, 247);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10%;
+}
+
+.div9{
+    height: 150px;
+    width: 850px;
+    
+    background-color: rgb(72, 60, 119);
+    text-align: justify;
+    
+    border-color: rgb(247, 247, 247);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10%;
+}
+
+
+

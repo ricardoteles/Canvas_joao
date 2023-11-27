@@ -1,0 +1,37 @@
+@media(max-width: 750px) {
+  .introducao_index_titulo{
+    color: black; 
+  }
+    .iframefilho{
+        border: 2px solid rgb(2, 35, 23);
+        border-radius: 60px;
+        padding: 2px; 
+        height: 550px;
+        width: 560px;
+      }
+      
+      .iframefilho:read-only{
+        box-shadow:  0 0 2px 1px rgba(136, 186, 0, 0.5);
+        opacity: 40px;
+       }
+      
+       .iframefilho:hover{
+        opacity: 40px;
+       }
+    .iframefilho1{
+        border: 2px solid rgb(2, 35, 23);
+        border-radius: 60px;
+        padding: 2px;
+        height: 550px;
+        width: 560px;
+      }
+      
+      .iframefilho1:read-only{
+        box-shadow:  0 0 2px 1px rgba(196, 153, 13, 0.5);
+        opacity: 40px;
+       }
+      
+       .iframefilho1:hover{
+        opacity: 40px;
+       } 
+}

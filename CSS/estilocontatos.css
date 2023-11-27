@@ -1,0 +1,82 @@
+
+h5,h6{
+    text-align: center;
+}
+.dev{
+    text-align: center;
+    margin-top: 50px; 
+}
+
+div{
+    display: grid;
+    justify-content: center; 
+   
+}
+
+figcaption{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.contatoPam{
+
+    border: 2px solid #ddd;
+    border-radius: 60px; 
+    width: 260px;
+    margin-top: 20px; 
+    padding: 20px;
+}
+
+.contatoJoao{
+
+    border: 2px solid #ddd;
+    border-radius: 60px; 
+    width: 260px;
+    margin-top: 20px; 
+    padding: 20px;
+    
+}
+.contatoTa{
+
+    border: 2px solid #ddd;
+    border-radius: 60px; 
+    width: 260px;
+    margin-top: 20px; 
+    padding: 20px;
+}
+
+.contatoPam:hover{
+    box-shadow:  0 0 2px 1px rgba(0, 186, 177, 0.5);
+}
+.contatoJoao:hover{
+    box-shadow:  0 0 2px 1px rgba(0, 140, 186,0.5);
+}
+.contatoTa:hover{
+    box-shadow:  0 0 2px 1px rgba(73, 149, 150, 0.5);
+}
+
+    @media(max-width: 750px) {
+        h5{
+            color: rgb(186, 133, 9);
+        }
+        
+     main{
+            
+            height: 100vh;
+        
+        }  
+    .completo{
+                display: grid;
+                grid-template-columns: 1fr;
+                align-items: center; 
+               
+            }
+    #footer_content{
+            margin-top:  650px;
+        }   
+    }
+
+
+
